@@ -80,6 +80,8 @@ Usage:
 			drive
 				This mode control NVRAM & SSD Health
 
+			alert
+				This mode control alert event flagged "true"
         -t  ... Token User Id
 	-d  ... debug mode
 Example:
@@ -88,7 +90,7 @@ Example:
 	$0 -H DBA00099 -t c7d8bgdjb-bdghy-cgf67cbhn -m array-latency
 	$0 -H DBA00099 -t c7d8bgdjb-bdghy-cgf67cbhn -m bandwidth
 	$0 -H DBA00099 -t c7d8bgdjb-bdghy-cgf67cbhn -m hardware
-	$0 -H DBA00099 -t c7d8bgdjb-bdghy-cgf67cbhn -m drive
+	$0 -H DBA00099 -t c7d8bgdjb-bdghy-cgf67cbhn -m alert
 
 EOF
 }
